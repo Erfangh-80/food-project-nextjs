@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.container a {
+  box-shadow: #5cf5731f 0px 4px 16px, #11111a0d 0px 8px 32px;
+  padding: 15px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .container a {
+    padding: 10px 20px;
+  }
+}

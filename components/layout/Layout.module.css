@@ -1,0 +1,50 @@
+.header {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.logo a {
+  color: #53c60b;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.menu a {
+  margin-left: 15px;
+  color: #696969;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #53c60b;
+  text-align: center;
+  color: #696969;
+  padding: 10px 0px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #234a0b;
+  font-weight: 700;
+}
+
+.container {
+  min-height: 1000px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+}

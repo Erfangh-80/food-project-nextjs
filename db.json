@@ -36,7 +36,7 @@
       "id": 2,
       "name": "Peking duck",
       "price": 8,
-      "discount": 0,
+      "discount": 30,
       "introduction": "A dish cooked and eaten in Beijing since the Imperial era, today Peking duck is a Chinese restaurant favourite across the world. There are countless methods of preparing and cooking the duck, but originally it was roasted in a closed oven until the kitchens of the Qing Dynasty developed the open-oven style to cook several ducks at the same time. The duck is then served with steamed Chinese pancakes, cucumber, spring onion and sweet bean sauce.",
       "details": [
         { "Cuisine": "Chinese" },
