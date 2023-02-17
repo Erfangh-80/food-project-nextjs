@@ -14,7 +14,7 @@ const Food = ({ data }) => {
 export default Food;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:4000/data");
+  const res = await fetch(`${process.env.BASE_URL}/data`);
   const foods = await res.json();
   const data = foods.slice(0, 10);
 
@@ -30,7 +30,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-
+  console.log(`${process.env.BASE_URL}/data/${params.foodId}`);
   const res = await fetch(`${process.env.BASE_URL}/data/${params.foodId}`);
   const data = await res.json();
 
